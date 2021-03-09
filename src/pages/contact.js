@@ -2,12 +2,12 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const IndexPage = () => (
+const ContactPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`AFPVR`, `drone`, `racing`]} />
-    <h1>Adelaide FPV Racing</h1>
+    <SEO title="Contact us" />
+    <h1>Contact us</h1>
     <p>TODO:</p>
   </Layout>
 );
 
-export default IndexPage;
+export default ContactPage;

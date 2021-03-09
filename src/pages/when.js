@@ -2,12 +2,12 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const IndexPage = () => (
+const WhenWeFlyPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`AFPVR`, `drone`, `racing`]} />
-    <h1>Adelaide FPV Racing</h1>
+    <SEO title="When we fly" />
+    <h1>When we fly</h1>
     <p>TODO:</p>
   </Layout>
 );
 
-export default IndexPage;
+export default WhenWeFlyPage;
