@@ -1,0 +1,15 @@
+{
+    "parser": "babel-eslint",
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "env": {
+      "node": true // defines things like process.env when generating through node
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ]
+  }
