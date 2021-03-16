@@ -7,7 +7,7 @@ const Header = (props) => (
     <div className="content">
       <div className="inner">
         <h1>Adelaide FPV Racing</h1>
-        <h3>The home of drone racing in South Australia since 2016</h3>
+        <h3>&nbsp;The home of drone racing in South Australia since 2016&nbsp;</h3>
       </div>
     </div>
     <nav>
@@ -42,7 +42,7 @@ const Header = (props) => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle("get-involved")
+              props.onOpenArticle("faq")
             }}
           >
             Get Involved

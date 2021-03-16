@@ -1,8 +1,9 @@
 import PropTypes from "prop-types"
 import React from "react"
-import pic01 from "../images/pic01.jpg"
-import pic02 from "../images/pic02.jpg"
-import pic03 from "../images/pic03.jpg"
+import about from "../images/about.jpg"
+import events from "../images/events.jpg"
+import history from "../images/history.jpg"
+import faq from "../images/faq.jpg"
 
 class Main extends React.Component {
   render() {
@@ -30,7 +31,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={history} alt="" />
           </span>
           <p>TODO:</p>
           {close}
@@ -45,9 +46,16 @@ class Main extends React.Component {
         >
           <h2 className="major">Events</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={events} alt="" />
           </span>
-          <p>TODO:</p>
+          <h3 className="major">When we fly</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            
+          </p>
+          <h3 className="major">Where we fly</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            
+          </p>
           {close}
         </article>
 
@@ -60,24 +68,31 @@ class Main extends React.Component {
         >
           <h2 className="major">History</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={about} alt="" />
           </span>
           <p>TODO:</p>
           {close}
         </article>
 
         <article
-          id="get-involved"
+          id="faq"
           className={`${
-            this.props.article === "get-involved" ? "active" : ""
+            this.props.article === "faq" ? "active" : ""
           } ${this.props.articleTimeout ? "timeout" : ""}`}
           style={{ display: "none" }}
         >
           <h2 className="major">Get Involved</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={faq} alt="" />
           </span>
-          <p>TODO:</p>
+          <h3 className="major">Getting started</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            
+          </p>
+          <h3 className="major">Rules for flying</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.            
+          </p>
           {close}
         </article>
 

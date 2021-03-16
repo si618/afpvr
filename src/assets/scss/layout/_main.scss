@@ -35,6 +35,11 @@
     border-radius: _size(border-radius);
     opacity: 0;
 
+    h2 {
+      cursor: default;
+      user-select: none;
+    }
+
     &.timeout {
       display: none;
     }
