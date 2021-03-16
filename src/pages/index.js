@@ -19,6 +19,7 @@ class IndexPage extends React.Component {
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
     this.setWrapperRef = this.setWrapperRef.bind(this)
     this.handleClickOutside = this.handleClickOutside.bind(this)
+    this.handleKeyDown = this.handleKeyDown.bind(this)
   }
 
   componentDidMount() {
@@ -26,6 +27,7 @@ class IndexPage extends React.Component {
       this.setState({ loading: "" })
     }, 100)
     document.addEventListener("mousedown", this.handleClickOutside)
+    document.addEventListener("keydown", this.handleKeyDown)
   }
 
   componentWillUnmount() {
@@ -33,6 +35,7 @@ class IndexPage extends React.Component {
       clearTimeout(this.timeoutId)
     }
     document.removeEventListener("mousedown", this.handleClickOutside)
+    document.addEventListener("keydown", this.handleKeyDown)
   }
 
   setWrapperRef(node) {
@@ -82,6 +85,12 @@ class IndexPage extends React.Component {
       if (this.state.isArticleVisible) {
         this.handleCloseArticle()
       }
+    }
+  }
+
+  handleKeyDown(event) {
+    if (this.state.isArticleVisible && event.keyCode === 27) {
+      this.handleCloseArticle()
     }
   }
 
