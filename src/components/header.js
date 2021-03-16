@@ -1,48 +1,70 @@
-import NavLink from './nav-link';
-import PropTypes from 'prop-types';
-import React from 'react';
-import { Link } from 'gatsby';
+import PropTypes from "prop-types"
+import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`
-    }}
-  >
-  <nav
-    style={{
-      margin: `0 auto`,
-      maxWidth: 960,
-      padding: `1.45rem 1.0875rem`
-  }}
-  >
-    <Link
-        to="/"
-        style={{
-            color: `white`,
-            fontWeight: 700,
-            marginRight: '1rem',
-            textDecoration: `none`
-        }}
-    >
-      {siteTitle}
-    </Link>
-    <NavLink to="/where">Where we fly</NavLink>
-    <NavLink to="/when">When we fly</NavLink>
-    <NavLink to="/history">Our history</NavLink>
-    <NavLink to="/faq">Get involved</NavLink>
-    <NavLink to="/contact">Contact us</NavLink>
+const Header = (props) => (
+  <header id="header" style={props.timeout ? { display: "none" } : {}}>
+    <div className="logo" />
+    <div className="content">
+      <div className="inner">
+        <h1>Adelaide FPV Racing</h1>
+        <h3>The home of drone racing in South Australia since 2016</h3>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle("about")
+            }}
+          >
+            About AFPVR
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle("events")
+            }}
+          >
+            Events
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle("history")
+            }}
+          >
+            History
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle("get-involved")
+            }}
+          >
+            Get Involved
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle("contact")
+            }}
+          >
+            Contact
+          </button>
+        </li>
+      </ul>
     </nav>
   </header>
-);
+)
 
 Header.propTypes = {
-  siteTitle: PropTypes.string
-};
+  onOpenArticle: PropTypes.func,
+  timeout: PropTypes.bool,
+}
 
-Header.defaultProps = {
-  siteTitle: ``
-};
-
-export default Header;
+export default Header
