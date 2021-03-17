@@ -33,7 +33,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={historyImage} alt="" />
+            <img src={aboutImage} alt="" />
           </span>
           <p>TODO:</p>
           {close}
@@ -82,7 +82,7 @@ class Main extends React.Component {
         >
           <h2 className="major">History</h2>
           <span className="image main">
-            <img src={aboutImage} alt="" />
+            <img src={historyImage} alt="" />
           </span>
           <History
             title="2019 Edinburgh Air Show"
@@ -202,6 +202,7 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
+          {close}
         </article>
       </div>
     )
