@@ -34,7 +34,10 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: "description", content: "Website for Adelaide FPV Racing" },
+              {
+                name: "description",
+                content: "Website for Adelaide FPV Racing",
+              },
               { name: "keywords", content: "afpvr, drone racing" },
             ]}
           >
