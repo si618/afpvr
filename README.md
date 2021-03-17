@@ -1,3 +1,10 @@
-## 🚀 Website of Adelaide FPV Racing
+## Website of Adelaide FPV Racing 🚀
 
-### TODO: Document build and release process
+### Building
+
+TODO: git clone, node+npm install, etc.
+
+```
+npm install
+npm run develop
+```
