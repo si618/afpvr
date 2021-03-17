@@ -52,23 +52,15 @@ class Main extends React.Component {
           </span>
           <h3 className="major">When we fly</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            TODO:
           </p>
           <h3 className="major">Where we fly</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            TODO:
+          </p>
+          <h3 className="major">Weather policy</h3>
+          <p>
+            TODO:
           </p>
           {close}
         </article>
@@ -90,7 +82,7 @@ class Main extends React.Component {
           >
             <p>
               Adelaide FPV Racing was invited to compete against the Air Force,
-              Army and Navy teams at the Edinburgh Air Show.
+              Army and Navy drone racing teams at the Edinburgh Air Show.
             </p>
           </History>
           <History
