@@ -59,12 +59,6 @@ button,
     background-color: _palette(fg-bold);
     color: _palette(bg) !important;
     font-weight: _font(weight-bold);
-
-    &:hover {
-    }
-
-    &:active {
-    }
   }
 
   &.disabled,

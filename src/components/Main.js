@@ -1,8 +1,9 @@
 import PropTypes from "prop-types"
 import React from "react"
+import Committee from "./committee"
 import aboutImage from "../images/about.jpg"
 import eventsImage from "../images/events.jpg"
-import History from "../components/history"
+import HistoryVideo from "./historyVideo"
 import historyImage from "../images/history.jpg"
 import faqImage from "../images/faq.jpg"
 
@@ -51,17 +52,13 @@ class Main extends React.Component {
             <img src={eventsImage} alt="" />
           </span>
           <h3 className="major">When we fly</h3>
-          <p>
-            TODO:
-          </p>
+          <p>TODO:</p>
           <h3 className="major">Where we fly</h3>
-          <p>
-            TODO:
-          </p>
+          <p>TODO:</p>
+          <h3 className="major">Cost</h3>
+          <p>TODO:</p>
           <h3 className="major">Weather policy</h3>
-          <p>
-            TODO:
-          </p>
+          <p>TODO:</p>
           {close}
         </article>
 
@@ -76,7 +73,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={historyImage} alt="" />
           </span>
-          <History
+          <HistoryVideo
             title="2019 Edinburgh Air Show"
             url="https://www.youtube.com/embed/BjFRIacrx6s?start=23369&amp;feature=oembed"
           >
@@ -84,14 +81,14 @@ class Main extends React.Component {
               Adelaide FPV Racing was invited to compete against the Air Force,
               Army and Navy drone racing teams at the Edinburgh Air Show.
             </p>
-          </History>
-          <History
+          </HistoryVideo>
+          <HistoryVideo
             title="2018 Hybrid world"
             url="https://www.youtube.com/embed/i22ovztHzx8?feature=oembed"
           >
             <p>Tight indoor racing held at the Adelaide convention centre.</p>
-          </History>
-          <History
+          </HistoryVideo>
+          <HistoryVideo
             title="2018 Royal Adelaide Show"
             url="https://www.youtube.com/embed/QOndr7R_dIA?start=83&amp;feature=oembed"
           >
@@ -100,8 +97,8 @@ class Main extends React.Component {
               Australian Drone Racing State Champion for the third year in a
               row.
             </p>
-          </History>
-          <History
+          </HistoryVideo>
+          <HistoryVideo
             title="2017 Royal Adelaide Show"
             url="https://www.youtube.com/embed/adWuL_P40Og?feature=oembed"
           >
@@ -112,8 +109,8 @@ class Main extends React.Component {
               </a>{" "}
               of drone racing, attracting interstate and international pilots.
             </p>
-          </History>
-          <History
+          </HistoryVideo>
+          <HistoryVideo
             title="2016 Royal Adelaide Show"
             url="https://www.youtube.com/embed/v-WnwRTqv_A?feature=oembed"
           >
@@ -126,7 +123,7 @@ class Main extends React.Component {
               </a>{" "}
               and interstate attention.
             </p>
-          </History>
+          </HistoryVideo>
           {close}
         </article>
 
@@ -142,25 +139,11 @@ class Main extends React.Component {
             <img src={faqImage} alt="" />
           </span>
           <h3 className="major">Getting started</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <p>TODO:</p>
           <h3 className="major">Rules for flying</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <p>TODO:</p>
+          <h3 className="major">Membership</h3>
+          <p>TODO:</p>
           {close}
         </article>
 
@@ -172,28 +155,41 @@ class Main extends React.Component {
           style={{ display: "none" }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+          <h3>Social Media</h3>
+          <p>
+            You can find us on{" "}
+            <a href="https://www.facebook.com/groups/adelaidefpvracing/">
+              facebook
+            </a>{" "}
+            and <a href="https://discord.gg/GfpNVwH">discord</a>.
+          </p>
+          <h3>Club Committee</h3>
+          <p>
+            Primary point of contact is the{" "}
+            <a href="mailto:secretary@adelaidefpvracing.com.au">
+              club secretary
+            </a>
+            .
+          </p>
+          <div>
+            {/* <Committee position="President" name="" email="" /> */}
+            <Committee
+              position="Secretary"
+              name="Justin Grubb"
+              email="secretary@adelaidefpvracing.com.au"
+            />
+            <Committee
+              position="Treasurer"
+              name="Simon McKenna"
+              email="treasurer@adelaidefpvracing.com.au"
+            />
+            <Committee
+              position="Events Manager"
+              name="Peter Kuskoff"
+              email="events@adelaidefpvracing.com.au"
+            />
+            <Committee position="Safety Officer" name="Marc Bevan" email="" />
+          </div>
           {close}
         </article>
       </div>

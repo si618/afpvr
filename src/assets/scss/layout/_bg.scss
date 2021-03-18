@@ -9,6 +9,7 @@
 #bg {
   @include vendor("transform", "scale(1.0)");
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -64,7 +65,6 @@
   .body.is-article-visible & {
     &:after {
       @include vendor("transform", "scale(1.0825)");
-      // @include vendor('filter', 'blur(0.2rem)');
     }
   }
 
