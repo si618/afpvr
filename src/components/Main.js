@@ -171,24 +171,28 @@ class Main extends React.Component {
             </a>
             .
           </p>
-          <div>
+          <div className="form">
             {/* <Committee position="President" name="" email="" /> */}
-            <Committee
-              position="Secretary"
-              name="Justin Grubb"
-              email="secretary@adelaidefpvracing.com.au"
-            />
-            <Committee
-              position="Treasurer"
-              name="Simon McKenna"
-              email="treasurer@adelaidefpvracing.com.au"
-            />
-            <Committee
-              position="Events Manager"
-              name="Peter Kuskoff"
-              email="events@adelaidefpvracing.com.au"
-            />
-            <Committee position="Safety Officer" name="Marc Bevan" email="" />
+            <div className="field first half">
+              <Committee
+                position="Secretary"
+                name="Justin Grubb"
+                email="secretary@adelaidefpvracing.com.au"
+              />
+              <Committee
+                position="Treasurer"
+                name="Simon McKenna"
+                email="treasurer@adelaidefpvracing.com.au"
+              />
+            </div>
+            <div className="field half">
+              <Committee
+                position="Events Manager"
+                name="Peter Kuskoff"
+                email="events@adelaidefpvracing.com.au"
+              />
+              <Committee position="Safety Officer" name="Marc Bevan" email="" />
+            </div>
           </div>
           {close}
         </article>

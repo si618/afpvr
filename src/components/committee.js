@@ -4,13 +4,13 @@ import React from "react"
 const Committee = ({ position, name, email }) => (
   <div>
     <h4>{position}</h4>
-    <div style={{ paddingLeft: 1 + "rem" }}>
-      <p>
-        {name}
-        <br />
-        <a href={email}>{email}</a>
-      </p>
-    </div>
+    <p>
+      {name}
+      <br />
+      <a className="email" href={email}>
+        {email}
+      </a>
+    </p>
   </div>
 )
 
