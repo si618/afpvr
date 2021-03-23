@@ -1,19 +1,20 @@
 import PropTypes from "prop-types"
 import React from "react"
-import Video from "./video"
+import IFrame from "./iframe"
 
-const HistoryVideo = ({ title, url, children }) => (
+const Embed = ({ title, url, scale, children }) => (
   <div>
     <h3>{title}</h3>
     {children}
-    <Video title={title} url={url} />
+    <IFrame title={title} url={url} scale={scale} />
   </div>
 )
 
-HistoryVideo.propTypes = {
+Embed.propTypes = {
   title: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
+  scale: PropTypes.string,
   children: PropTypes.array,
 }
 
-export default HistoryVideo
+export default Embed
