@@ -4,7 +4,7 @@ import IFrame from "./iframe"
 
 const Embed = ({ title, url, scale, children }) => (
   <div>
-    <h3>{title}</h3>
+    <h4>{title}</h4>
     {children}
     <IFrame title={title} url={url} scale={scale} />
   </div>

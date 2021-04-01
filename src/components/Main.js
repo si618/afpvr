@@ -52,7 +52,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={eventsImage} alt="" />
           </span>
-          <h3 className="major">When we fly</h3>
+          <h3>When we fly</h3>
           <div className="form">
             <div className="field half first">
               <p>
@@ -61,7 +61,7 @@ class Main extends React.Component {
                 <a href="https://www.facebook.com/pg/AFPVR/events/">
                   facebook page
                 </a>
-                , or for your convenience alongside this text.
+                .
               </p>
               <p>
                 Always check our facebook event page close to the event to see
@@ -77,36 +77,30 @@ class Main extends React.Component {
               />
             </div>
           </div>
-          <h3 className="major">Where we fly</h3>
+          <h3>Where we fly</h3>
           <p>
             <Embed
               title="Veale Park, Park 21 off Sir Lewis Cohen Ave"
               url="https://maps.google.com/maps?q=Walyu+Yarta+%28Park+21%29&amp;iwloc=near&amp;output=embed"
             ></Embed>
             <p>
-              This is our main flying location, but keep an eye on our social
-              media as we do fly at other locations.
-            </p>
-            <p>
-              The club is always searching for new and interesting locations
-              where the owner has provided permission for AFPVR members to fly,
-              so if you know of other locations please get in contact.
+              AFPVR is always searching for new and interesting locations where
+              the owner has provided permission for club members to fly, so if
+              you know of any locations please get in contact.
             </p>
           </p>
-          <h3 className="major">Cost</h3>
+          <h3>Cost</h3>
           <p>
-            AFPVR members pay $10 per event.
+            AFPVR members pay $10 per event. Visitor pilots pay $20 per event.
             <br />
-            Visitor pilots pay $20 per event.
-            <br />
-            Juniors (under 18) pay $5 if a member or $10 if visiting.
+            Juniors under 18 pay ½ price - $5 if a member or $10 if visiting.
             <br />
             Visitors are permitted to attend three events before requiring
             membership.
             <br />
-            Spectators are free.
+            Spectating is free.
           </p>
-          <h3 className="major">Weather policy</h3>
+          <h3>Weather policy</h3>
           <p>
             The night before an event, the committee will advise by email and
             social media by 6pm if the event will be cancelled due to weather
@@ -218,11 +212,12 @@ class Main extends React.Component {
           <h2 className="major">Contact</h2>
           <h3>Social Media</h3>
           <p>
-            You can find us on{" "}
+            You can find us on <a href="https://discord.gg/GfpNVwH">discord</a>{" "}
+            and{" "}
             <a href="https://www.facebook.com/groups/adelaidefpvracing/">
               facebook
-            </a>{" "}
-            and <a href="https://discord.gg/GfpNVwH">discord</a>.
+            </a>
+            .
           </p>
           <h3>Club Committee</h3>
           <p>
