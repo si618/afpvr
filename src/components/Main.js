@@ -153,8 +153,9 @@ class Main extends React.Component {
             url="https://www.youtube.com/embed/BjFRIacrx6s?start=23369&amp;feature=oembed"
           >
             <p>
-              Adelaide FPV Racing was invited to compete against the Air Force,
-              Army and Navy drone racing teams at the Edinburgh Air Show.
+              Adelaide FPV Racing was invited to compete against the Australian
+              Air Force, Army and Navy drone racing teams at the Edinburgh Air
+              Show.
             </p>
           </Embed>
           <Embed

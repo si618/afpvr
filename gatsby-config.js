@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/afpvr",
   siteMetadata: {
     title: "Adelaide FPV Racing",
     author: "Simon McKenna",
