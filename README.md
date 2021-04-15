@@ -11,6 +11,7 @@
 npm install
 npm run develop
 ```
+
 ### Edit 💄
 
 - W.I.P.👷 Markdown support? Separate pages?
@@ -18,6 +19,10 @@ npm run develop
 
 ### Deploy 🚀
 
-Commit and push. Job done. If you stuff up, revert previous commit and push.
+Commit and push. Job done 😎 If you stuff up, revert previous commit and push.
 
-To manually deploy, `npm run deploy`
+To manually deploy use `npm run deploy`
+
+### Maintenance 🔧
+
+Keep things up to date using `npm up` and [ncu](https://www.npmjs.com/package/npm-check-updates)
