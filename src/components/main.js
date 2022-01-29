@@ -72,7 +72,7 @@ class Main extends React.Component {
             <div className="field half">
               <IFrame
                 title=""
-                url="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAFPVR%2F&tabs=events%2Ctimeline&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=729400980909425"
+                url="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAFPVR%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1629489317405180"
                 scale="facebookEvents"
               />
             </div>
