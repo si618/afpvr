@@ -28,8 +28,9 @@ class Main extends React.Component {
       >
         <article
           id="about"
-          className={`${this.props.article === "about" ? "active" : ""} ${this.props.articleTimeout ? "timeout" : ""
-            }`}
+          className={`${this.props.article === "about" ? "active" : ""} ${
+            this.props.articleTimeout ? "timeout" : ""
+          }`}
           style={{ display: "none" }}
         >
           <h2 className="major">About</h2>
@@ -42,8 +43,9 @@ class Main extends React.Component {
 
         <article
           id="events"
-          className={`${this.props.article === "events" ? "active" : ""} ${this.props.articleTimeout ? "timeout" : ""
-            }`}
+          className={`${this.props.article === "events" ? "active" : ""} ${
+            this.props.articleTimeout ? "timeout" : ""
+          }`}
           style={{ display: "none" }}
         >
           <h2 className="major">Events</h2>
@@ -113,8 +115,9 @@ class Main extends React.Component {
 
         <article
           id="faq"
-          className={`${this.props.article === "faq" ? "active" : ""} ${this.props.articleTimeout ? "timeout" : ""
-            }`}
+          className={`${this.props.article === "faq" ? "active" : ""} ${
+            this.props.articleTimeout ? "timeout" : ""
+          }`}
           style={{ display: "none" }}
         >
           <h2 className="major">Get Involved</h2>
@@ -136,8 +139,9 @@ class Main extends React.Component {
 
         <article
           id="history"
-          className={`${this.props.article === "history" ? "active" : ""} ${this.props.articleTimeout ? "timeout" : ""
-            }`}
+          className={`${this.props.article === "history" ? "active" : ""} ${
+            this.props.articleTimeout ? "timeout" : ""
+          }`}
           style={{ display: "none" }}
         >
           <h2 className="major">History</h2>
@@ -201,8 +205,9 @@ class Main extends React.Component {
 
         <article
           id="contact"
-          className={`${this.props.article === "contact" ? "active" : ""} ${this.props.articleTimeout ? "timeout" : ""
-            }`}
+          className={`${this.props.article === "contact" ? "active" : ""} ${
+            this.props.articleTimeout ? "timeout" : ""
+          }`}
           style={{ display: "none" }}
         >
           <h2 className="major">Contact</h2>
@@ -243,7 +248,11 @@ class Main extends React.Component {
                 name="Pat 'Anox' Purcell"
                 email="events@adelaidefpvracing.com.au"
               />
-              <Committee position="Safety Officer" name="Stuart 'Squid' Francis" email="" />
+              <Committee
+                position="Safety Officer"
+                name="Stuart 'Squid' Francis"
+                email=""
+              />
             </div>
           </div>
           {close}
