@@ -46,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-source-filesystem", "virtual:e198b3f991c60b7a7fef586c7e39edad804df1d92c59155310db25e7f1fcc40bb39ea815ceed01456ddc35b3ff00f3bf8cb47acc7e577b4fc4356cffb1bc5e9c#npm:4.6.0"],
             ["gatsby-transformer-sharp", "virtual:e198b3f991c60b7a7fef586c7e39edad804df1d92c59155310db25e7f1fcc40bb39ea815ceed01456ddc35b3ff00f3bf8cb47acc7e577b4fc4356cffb1bc5e9c#npm:4.6.0"],
             ["gh-pages", "npm:3.2.3"],
+            ["node-fetch", "npm:3.2.0"],
             ["prettier", "npm:2.5.1"],
             ["prop-types", "npm:15.8.1"],
             ["react", "npm:17.0.2"],
@@ -4979,6 +4980,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-source-filesystem", "virtual:e198b3f991c60b7a7fef586c7e39edad804df1d92c59155310db25e7f1fcc40bb39ea815ceed01456ddc35b3ff00f3bf8cb47acc7e577b4fc4356cffb1bc5e9c#npm:4.6.0"],
             ["gatsby-transformer-sharp", "virtual:e198b3f991c60b7a7fef586c7e39edad804df1d92c59155310db25e7f1fcc40bb39ea815ceed01456ddc35b3ff00f3bf8cb47acc7e577b4fc4356cffb1bc5e9c#npm:4.6.0"],
             ["gh-pages", "npm:3.2.3"],
+            ["node-fetch", "npm:3.2.0"],
             ["prettier", "npm:2.5.1"],
             ["prop-types", "npm:15.8.1"],
             ["react", "npm:17.0.2"],
@@ -7330,6 +7332,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["data-uri-to-buffer", [
+        ["npm:4.0.0", {
+          "packageLocation": "./.yarn/cache/data-uri-to-buffer-npm-4.0.0-e7a49f58f7-a010653869.zip/node_modules/data-uri-to-buffer/",
+          "packageDependencies": [
+            ["data-uri-to-buffer", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["dataloader", [
         ["npm:2.0.0", {
           "packageLocation": "./.yarn/cache/dataloader-npm-2.0.0-216fa8d208-9f10b9d2e3.zip/node_modules/dataloader/",
@@ -9094,6 +9105,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["fetch-blob", [
+        ["npm:3.1.4", {
+          "packageLocation": "./.yarn/cache/fetch-blob-npm-3.1.4-478ba5034d-81b074f38a.zip/node_modules/fetch-blob/",
+          "packageDependencies": [
+            ["fetch-blob", "npm:3.1.4"],
+            ["node-domexception", "npm:1.0.0"],
+            ["web-streams-polyfill", "npm:3.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["figures", [
         ["npm:3.2.0", {
           "packageLocation": "./.yarn/cache/figures-npm-3.2.0-85d357e955-85a6ad29e9.zip/node_modules/figures/",
@@ -9382,6 +9404,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["asynckit", "npm:0.4.0"],
             ["combined-stream", "npm:1.0.8"],
             ["mime-types", "npm:2.1.34"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["formdata-polyfill", [
+        ["npm:4.0.10", {
+          "packageLocation": "./.yarn/cache/formdata-polyfill-npm-4.0.10-e03013c013-82a34df292.zip/node_modules/formdata-polyfill/",
+          "packageDependencies": [
+            ["formdata-polyfill", "npm:4.0.10"],
+            ["fetch-blob", "npm:3.1.4"]
           ],
           "linkType": "HARD",
         }]
@@ -13339,6 +13371,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["node-domexception", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/node-domexception-npm-1.0.0-e1e813b76f-ee1d37dd2a.zip/node_modules/node-domexception/",
+          "packageDependencies": [
+            ["node-domexception", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["node-fetch", [
         ["npm:2.6.1", {
           "packageLocation": "./.yarn/cache/node-fetch-npm-2.6.1-46c670dbc1-91075bedd5.zip/node_modules/node-fetch/",
@@ -13353,6 +13394,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-fetch", "npm:2.6.7"]
           ],
           "linkType": "SOFT",
+        }],
+        ["npm:3.2.0", {
+          "packageLocation": "./.yarn/cache/node-fetch-npm-3.2.0-43b96df788-1c809a0f64.zip/node_modules/node-fetch/",
+          "packageDependencies": [
+            ["node-fetch", "npm:3.2.0"],
+            ["data-uri-to-buffer", "npm:4.0.0"],
+            ["fetch-blob", "npm:3.1.4"],
+            ["formdata-polyfill", "npm:4.0.10"]
+          ],
+          "linkType": "HARD",
         }],
         ["virtual:ff4de2adcdcd724a853189eefa1a9cb67dbe46ad5d4eccd5ef986647233180e4bc21fb76f32ce8dbef004ca5b24ba72e83d890d3fd905ed719c0df7bbbc65d24#npm:2.6.7", {
           "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-6c803cc115/0/cache/node-fetch-npm-2.6.7-777aa2a6df-8d816ffd1e.zip/node_modules/node-fetch/",
@@ -18332,6 +18383,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/weak-lru-cache-npm-1.2.2-0dc8dfa322-0fbe16839d.zip/node_modules/weak-lru-cache/",
           "packageDependencies": [
             ["weak-lru-cache", "npm:1.2.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["web-streams-polyfill", [
+        ["npm:3.2.0", {
+          "packageLocation": "./.yarn/cache/web-streams-polyfill-npm-3.2.0-d541199f29-e23ad06493.zip/node_modules/web-streams-polyfill/",
+          "packageDependencies": [
+            ["web-streams-polyfill", "npm:3.2.0"]
           ],
           "linkType": "HARD",
         }]
