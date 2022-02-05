@@ -15,7 +15,7 @@ yarn develop
 
 ### 💄 Edit
 
-- W.I.P.👷 Markdown support? Separate pages?
+- W.I.P.👷 Markdown support?
 - Keep things tidy with `yarn format` after editing
 
 ### 🚀 Deploy
