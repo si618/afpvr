@@ -45,7 +45,8 @@ const EventSection = () => (
     </p>
     <h3>Cost</h3>
     <p>
-      Spectating is free. AFPVR members pay $10 per event. Visiting pilots pay $20 per event.
+      Spectating is free. AFPVR members pay $10 per event. Visiting pilots pay $20 per event. Cash 
+      or <a href="https://www.paypal.com/paypalme/afpvr">Paypal</a> accepted.
     </p>
     <p>
       Junior pilots under 18 pay ½ price - $5 if a member or $10 if visiting.
