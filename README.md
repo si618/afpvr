@@ -26,4 +26,4 @@ To manually deploy use `yarn deploy`
 
 ### Maintenance 🔧
 
-Keep things up to date using `yarn upgrade` and [ncu](https://www.npmjs.com/package/npm-check-updates)
+Keep things up to date using `yarn up` and [ncu](https://www.npmjs.com/package/npm-check-updates)
