@@ -1,9 +1,13 @@
 import React from "react"
 import Committee from "../components/committee"
+import contactImage from "../images/contact.webp"
 
 const ContactSection = () => (
   <>
     <h2 className="major">Contact</h2>
+    <span className="image main">
+      <img src={contactImage} alt="" />
+    </span>
     <h3>Social Media</h3>
     <p>
       You can find us on <a href="https://discord.gg/GfpNVwH">discord</a> and{" "}
