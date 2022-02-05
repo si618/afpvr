@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Committee = ({ position, name, email }) => (
-  <div>
+  <>
     <h4>{position}</h4>
     <p>
       {name}
@@ -11,7 +11,7 @@ const Committee = ({ position, name, email }) => (
         {email}
       </a>
     </p>
-  </div>
+  </>
 )
 
 Committee.propTypes = {

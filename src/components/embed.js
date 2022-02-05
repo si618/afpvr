@@ -3,11 +3,11 @@ import React from "react"
 import IFrame from "./iframe"
 
 const Embed = ({ title, url, scale, children }) => (
-  <div>
+  <>
     <h4>{title}</h4>
     {children}
     <IFrame title={title} url={url} scale={scale} />
-  </div>
+  </>
 )
 
 Embed.propTypes = {
