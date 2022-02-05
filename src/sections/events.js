@@ -22,6 +22,11 @@ const EventSection = () => (
           there are any last minute changes due to weather or other
           circumstances.
         </p>
+        <p>
+          AFPVR is always searching for new and interesting locations where the
+          owner has provided permission for club members to fly, so if you know of
+          any locations please get in contact.
+        </p>
       </div>
       <div className="field half">
         <IFrame
@@ -37,29 +42,29 @@ const EventSection = () => (
         title="Veale Park, Park 21 off Sir Lewis Cohen Ave"
         url="https://maps.google.com/maps?q=Walyu+Yarta+%28Park+21%29&amp;iwloc=near&amp;output=embed"
       ></Embed>
-      <p>
-        AFPVR is always searching for new and interesting locations where the
-        owner has provided permission for club members to fly, so if you know of
-        any locations please get in contact.
-      </p>
     </p>
     <h3>Cost</h3>
     <p>
-      AFPVR members pay $10 per event. Visitor pilots pay $20 per event.
-      <br />
-      Juniors under 18 pay ½ price - $5 if a member or $10 if visiting.
-      <br />
-      Visitors are permitted to attend three events before requiring membership.
-      <br />
-      Spectating is free.
+      Spectating is free. AFPVR members pay $10 per event. Visiting pilots pay $20 per event.
+    </p>
+    <p>
+      Junior pilots under 18 pay ½ price - $5 if a member or $10 if visiting.
+    </p>
+    <p>
+      Visiting pilots are permitted to attend three events before requiring membership.
     </p>
     <h3>Weather policy</h3>
     <p>
       The night before an event, the committee will advise by email and social
-      media by 6pm if the event will be cancelled due to weather concerns. This
-      decision will be made by consensus of three or more members of the
+      media by 6pm if the event will be cancelled due to weather concerns.
+    </p>
+    <p>
+      This decision will be made by consensus of three or more members of the
       committee based on forecast rainfall, wind speed, temperature and UV
-      rating. Any cancellations will be expressly for the purpose of safety and
+      rating.
+    </p>
+    <p>
+      Any cancellations will be expressly for the purpose of safety and
       avoiding equipment damage and as such are not negotiable.
     </p>
   </>
