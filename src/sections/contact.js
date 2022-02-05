@@ -24,19 +24,19 @@ const ContactSection = () => (
         <Committee
           position="Secretary"
           name="Justin 'Astromek' Grubb"
-          email="mailto:secretary@adelaidefpvracing.com.au"
+          email="secretary@adelaidefpvracing.com.au"
         />
         <Committee
           position="Treasurer"
           name="David 'CrazyTrain' Hoyle"
-          email="mailto:treasurer@adelaidefpvracing.com.au"
+          email="treasurer@adelaidefpvracing.com.au"
         />
       </div>
       <div className="field half">
         <Committee
           position="Events Manager"
           name="Pat 'Anox' Purcell"
-          email="mailto:events@adelaidefpvracing.com.au"
+          email="events@adelaidefpvracing.com.au"
         />
         <Committee
           position="Safety Officer"

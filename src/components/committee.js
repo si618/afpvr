@@ -7,7 +7,7 @@ const Committee = ({ position, name, email }) => (
     <p>
       {name}
       <br />
-      <a className="email" href={email}>
+      <a className="email" href={"mailto:" + email}>
         {email}
       </a>
     </p>
