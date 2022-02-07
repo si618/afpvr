@@ -123,7 +123,9 @@
   .sponsors {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100%;
+    height: auto;
 
     a {
       border-bottom: none;
